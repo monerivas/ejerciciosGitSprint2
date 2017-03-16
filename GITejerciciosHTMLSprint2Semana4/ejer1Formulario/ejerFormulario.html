@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Mi primer formulario</h1>
+
+    <form>
+      <label> Ingresa tu nombre</label><br>
+      <input type= "text" name="nombre"required="required"> <br><!--nombre-->
+
+      <label>Ingresa tu apellido</label><br>
+      <input type= "text" name="apellido"required="required"><br>
+
+      <label>Ingresa tu numero de telefono</label><br>
+      <input type= "number" name= "mumTelefono"required="required"><br>
+
+      <label>Ingresa tu email</label><br>
+      <input type= "email" name= "correo" required="required"><br>
+
+      <label>Ingresa tu contraseña</label><br>
+      <input type= "password" name= "contraseña" pattern=".{6,}" required="required"><br>
+
+      <label>Nacionalidad</label><br>
+      <select name="Dropdown" required="required">
+        <option value="Selecciona">canada</option>
+        <option value="Mexicana">Mexicana</option>
+        <option value="Venezolana">Venezolana</option>
+        <option value="Boliviana">Boliviana</option>
+      </select><br>
+
+      <label> Presiona para avanzar </label><br>
+      <a href="a.html"><button>enviar</button></a> <!--esto fue un intento de linkearlo a otra pagina-->
+
+    </form>
+
+  </body>
+</html>
+<!--Este codigo solo crea intefaz grafica d eun formulario pero
+no tiene nada de funcionalidad, valida los imputs pero no hace mas
+(no estoy segura coomo funciona esa validacion)-->
